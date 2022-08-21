@@ -1,0 +1,36 @@
+{
+  "files": {
+    "comandos/divercion/meme.js": [
+      {
+        "id": "7b3b4d51-1563-4840-aa3c-f2191326bcaf",
+        "line": 22,
+        "version": 282,
+        "index": 2360
+      }
+    ],
+    "comandos/divercion/pat.js": [
+      {
+        "id": "a07c07ca-c750-4941-ad6c-4f1fe15d4b04",
+        "line": 41,
+        "version": 18,
+        "index": 1902
+      }
+    ],
+    "comandos/moderacion/ban.js": [
+      {
+        "id": "89416e03-47f2-4619-a4c9-1c87d9ce6a09",
+        "line": 8,
+        "version": 373,
+        "index": 328
+      }
+    ],
+    "slashes/tets/embed.js": [
+      {
+        "id": "8936cb65-7a1e-416e-8bc6-b6e7ea9c8346",
+        "line": 21,
+        "version": 116,
+        "index": 984
+      }
+    ]
+  }
+}

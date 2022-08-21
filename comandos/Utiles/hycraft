@@ -1,0 +1,23 @@
+const Discord = require('discord.js')
+const { Client, MessageEmbed, Intents } = require('discord.js');
+const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILD_MEMBERS] });
+
+module.exports = {
+  name: "hycraft",
+  alias: [],
+
+  execute (client, message, args){
+
+    const embed = new Discord.MessageEmbed()
+      .setTitle("Veo que te interesa saber de hycraft")
+      .setDescription("**IP:** `mc.hycraft.us` \n**Discord:** https://discord.gg/hG7XA7Vtbg \n \n Ojala te guste este servidor 😉")
+      .setThumbnail(`https://images-ext-1.discordapp.net/external/pL3HmMhMmGrOmr1EQE7m3QPLNX2OE7K4IB0s37cMHXM/https/cdn.discordapp.com/icons/702009979217117195/d13c64007d029a6d55662ed8b92e24a2.png`)
+      .setColor("#f6ff00")
+
+    message.channel.send({embeds:[embed]})
+
+
+
+  }
+
+}
